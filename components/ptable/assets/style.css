@@ -1,38 +1,43 @@
-
-/*@Никита Сорокин*/
-/*@Александр Аширов*/
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 html {
 	font-family: 'Karla', sans-serif;
-	font-size: 14px;
+	font-size: calc(20vw/20);
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 body {
 	background-color: #e9f4f7;
 }
 
+.container {
+	/*margin-left: 2.5vw;*/
+	/*margin-top: -6vh;*/
+	transform: scale(0.8);
+}
 table.periodic {
 	margin-top: 0;
 	max-width: 100vw;
 	position: relative;
 	box-sizing: border-box;
 }
+td div:nth-child(1) {
+	width: calc(90vw/18);
+}
         
 table.periodic > tbody > tr > td {
-	height: 80px;
-	width: 80px;
 	border-radius: 0px;
 	padding: 0;
 }
 table.periodic-1 {
-	margin: auto;
+	margin-left: 0;
 }
         
 table.periodic-1 > tbody > tr > td {
-	height: 80px;
-	width: 80px;
 	border-radius: 0px;
 	padding: 0;
 }
@@ -46,17 +51,17 @@ table.periodic-1 > tbody > tr > td {
 .number {
 	text-align: left;
 	font-size: 1em;
-	padding-left: 5px;
+	padding-left: 3px;
 }
 
 .symbol {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	font-weight: bold;
 	text-align: center;
 }
         
 .name {
-	font-size: 0.9em;
+	font-size: 0.7em;
 	text-align: center;
     font-weight: normal;
 }
@@ -67,8 +72,9 @@ table.periodic-1 > tbody > tr > td {
 }
 
 .element:hover {
-	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.185);
+	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.2);
 	cursor: pointer;
+	transition: 0.5s;
 }
 
 .tdinvisible {
@@ -114,30 +120,19 @@ table.periodic-1 > tbody > tr > td {
 }
 
 .semimetal {
-    background-image: url(semimetal.png) ;
+    background-image: url(media/semimetal.png) ;
     background-repeat: no-repeat;
     background-position: 0% 100%;
 }
 
-
-/*Подсветка радиоактивных элементов*/
-
-/*
-.radio {
-    color: aqua
-}
-
-*/
-.element {
-    border: solid #ffffff 0px;
-}
 .mark {
-    font-size: 80px;
+    font-size: 0;
 }
 .radio {
-    background-image: url(radio1.png);
+    background-image: url(media\radioactive.png);
     background-repeat: no-repeat;
-    background-position: right top
+	background-position: right top
+	/*color: aqua;*/
 }
 .separate {
     background-color: #3ac2d3;
@@ -145,4 +140,16 @@ table.periodic-1 > tbody > tr > td {
 .lanthanum, .actinium {
     background-color: #3ac2d3 !important;
 }
- 
+.key {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.key td div:nth-child(1) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(90vw/18);
+	height: calc(90vw/18);
+}
