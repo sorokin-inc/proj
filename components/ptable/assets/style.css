@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 html {
 	font-family: 'Karla', sans-serif;
 	font-size: calc(20vw/20);
@@ -14,9 +15,25 @@ body {
 	background-color: #e9f4f7;
 }
 
+.tdinvisible .reference {
+	position: absolute;
+	left: 23%;
+	text-align: center;
+	font-size: 5em;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: bold;
+}
+
 .container {
-	/*margin-left: 2.5vw;*/
-	/*margin-top: -6vh;*/
+	position: absolute;
+	top: -5vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	/*margin-left: 2.5vw;
+	margin-top: -6vh;*/
 	transform: scale(0.8);
 }
 table.periodic {
@@ -26,12 +43,13 @@ table.periodic {
 	box-sizing: border-box;
 }
 td div:nth-child(1) {
-	width: calc(90vw/18);
+	width: calc(98vw/18);
 }
         
 table.periodic > tbody > tr > td {
 	border-radius: 0px;
 	padding: 0;
+	padding-bottom: 0.3em;
 }
 table.periodic-1 {
 	margin-left: 0;
@@ -70,6 +88,7 @@ table.periodic-1 > tbody > tr > td {
 	font-size: 0.8em;
 	text-align: center;
 }
+
 
 .element:hover {
 	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.2);
@@ -120,27 +139,27 @@ table.periodic-1 > tbody > tr > td {
 }
 
 .semimetal {
-    background-image: url(media/semimetal.png) ;
+    background-image: url(semimetal.png) ;
     background-repeat: no-repeat;
     background-position: 0% 100%;
 }
 
-.mark {
-    font-size: 0;
-}
 .radio {
-    background-image: url(media\radioactive.png);
+    background-image: url(radioactive.png);
     background-repeat: no-repeat;
-	background-position: right top
+	background-position: right top;
 	/*color: aqua;*/
 }
+
 .separate {
     background-color: #3ac2d3;
 }
+
 .lanthanum, .actinium {
     background-color: #3ac2d3 !important;
 }
-.key {
+
+/*.key {
 	text-align: center;
 	display: flex;
 	align-items: center;
@@ -152,4 +171,4 @@ table.periodic-1 > tbody > tr > td {
 	align-items: center;
 	width: calc(90vw/18);
 	height: calc(90vw/18);
-}
+}*/
