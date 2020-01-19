@@ -1,0 +1,158 @@
+
+/*@Никита Сорокин*/
+/*@Александр Аширов*/
+
+body {
+	background-color: #e0dccd;
+}
+
+table.periodic {
+	margin: auto;
+}
+        
+table.periodic > tbody > tr > td
+{
+	height: 80px;
+	width: 80px;
+	border-radius: 0px;
+	padding: 0;
+	text-shadow: 0 0 50px #fff;
+
+}
+table.periodic-1 {
+	margin: auto;
+   
+   
+}
+        
+table.periodic-1 > tbody > tr > td
+{
+	height: 80px;
+	width: 80px;
+	border-radius: 0px;
+	padding: 0;
+	text-shadow: 0 0 50px #fff;
+     
+
+}
+
+.col {
+	font-size: 16px;
+	text-align: center;
+	font-family: Neue, Calibri, sans-serif;
+	text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3), 0px -5px 35px rgba(255, 255, 255, 0.4);
+	vertical-align: bottom;
+        }
+
+.number {
+	text-align: left;
+	font-size: 14px;
+	padding-left: 5px;
+	font-family: Neue, Calibri, sans-serif;
+}
+
+.symbol {
+	font-size: 30px;
+	text-align: center;
+	font-family: Neue, Calibri, sans-serif;
+	text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3), 0px -5px 35px rgba(255, 255, 255, 0.4);
+}
+        
+.name {
+	font-size: 14px;
+	text-align: center;
+	font-family: Neue, Calibri, sans-serif;
+    font-weight:bold;
+}
+        
+.mass {
+	font-size: 12px;
+	text-align: center;
+	font-family: Neue, Calibri, sans-serif;
+}
+
+.element:hover {
+	box-shadow: inset 0 0 100px #ffffff;
+	cursor: pointer;
+}
+
+.tdinvisible {
+	border: 0px;
+}
+        
+.alkali {
+	background-color: #e3778e;
+}
+        
+.alkaline {
+	background-color: #e3778e;
+}
+        
+.transmetal {
+	background-color: #3ac2d3;
+}
+
+.basicmetal, .semimetal, .nonmetal, .halogen, .noblegas {
+	background-color: #f1d861;
+}
+
+.helium {
+    background-color:#e3778e !important;
+}
+
+.lanthanide {
+	background-color: #a1d4a2;
+}
+        
+.actinide {
+	background-color: #7cb683;
+}
+        
+.group {
+	font-size: 14px;
+	text-align: center;
+	font-family: Neue, Calibri, sans-serif;
+	text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3), 0px -5px 35px rgba(255, 255, 255, 0.4);
+}
+        
+        
+.radioactivity {
+	position: absolute;
+	height: 15px;
+}
+
+.semimetal {
+    background-image: url(semimetal.png) ;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+
+
+/*Подсветка радиоактивных элементов*/
+
+/*
+.radio {
+    color: aqua
+}
+
+*/
+.element {
+    border: solid #ffffff 0px;
+}
+.mark {
+    font-size: 80px;
+    font-family: sans-serif;
+    text-shadow: 3px 5px 0px #968383;
+}
+.radio {
+    background-image: url(radio1.png);
+    background-repeat: no-repeat;
+    background-position: right top
+}
+.separate {
+    background-color: #3ac2d3;
+}
+.lanthanum, .actinium {
+    background-color: #3ac2d3 !important;
+}
+ 

@@ -1,0 +1,148 @@
+
+/*@Никита Сорокин*/
+/*@Александр Аширов*/
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+html {
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e9f4f7;
+}
+
+table.periodic {
+	margin-top: 0;
+	max-width: 100vw;
+	position: relative;
+	box-sizing: border-box;
+}
+        
+table.periodic > tbody > tr > td {
+	height: 80px;
+	width: 80px;
+	border-radius: 0px;
+	padding: 0;
+}
+table.periodic-1 {
+	margin: auto;
+}
+        
+table.periodic-1 > tbody > tr > td {
+	height: 80px;
+	width: 80px;
+	border-radius: 0px;
+	padding: 0;
+}
+
+.col {
+	font-size: 1.3em;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.number {
+	text-align: left;
+	font-size: 1em;
+	padding-left: 5px;
+}
+
+.symbol {
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+}
+        
+.name {
+	font-size: 0.9em;
+	text-align: center;
+    font-weight: normal;
+}
+        
+.mass {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.element:hover {
+	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.185);
+	cursor: pointer;
+}
+
+.tdinvisible {
+	border: 0px;
+}
+        
+.alkali {
+	background-color: #e3778e;
+}
+        
+.alkaline {
+	background-color: #e3778e;
+}
+        
+.transmetal {
+	background-color: #3ac2d3;
+}
+
+.basicmetal, .semimetal, .nonmetal, .halogen, .noblegas {
+	background-color: #f1d861;
+}
+
+.helium {
+    background-color:#e3778e !important;
+}
+
+.lanthanide {
+	background-color: #a1d4a2;
+}
+        
+.actinide {
+	background-color: #7cb683;
+}
+        
+.group {
+	font-size: 0.8em;
+	text-align: center;
+}
+       
+.radioactivity {
+	position: absolute;
+	height: 15px;
+}
+
+.semimetal {
+    background-image: url(semimetal.png) ;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+
+
+/*Подсветка радиоактивных элементов*/
+
+/*
+.radio {
+    color: aqua
+}
+
+*/
+.element {
+    border: solid #ffffff 0px;
+}
+.mark {
+    font-size: 80px;
+}
+.radio {
+    background-image: url(radio1.png);
+    background-repeat: no-repeat;
+    background-position: right top
+}
+.separate {
+    background-color: #3ac2d3;
+}
+.lanthanum, .actinium {
+    background-color: #3ac2d3 !important;
+}
+ 
