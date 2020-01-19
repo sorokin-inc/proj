@@ -58,6 +58,7 @@ table.periodic-1 {
 table.periodic-1 > tbody > tr > td {
 	border-radius: 0px;
 	padding: 0;
+	padding-bottom: 0.3em;
 }
 
 .col {
@@ -73,7 +74,7 @@ table.periodic-1 > tbody > tr > td {
 }
 
 .symbol {
-	font-size: 2.2em;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-align: center;
 }
