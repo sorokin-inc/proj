@@ -26,7 +26,7 @@ body {
 
 .container {
 	position: absolute;
-	top: -5vh;
+	top: -8vh;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -34,7 +34,7 @@ body {
 	margin: 0;
 	/*margin-left: 2.5vw;
 	margin-top: -6vh;*/
-	transform: scale(0.8);
+	transform: scale(0.75);
 }
 table.periodic {
 	margin-top: 0;
