@@ -9,7 +9,7 @@
     <script src="assets/jquery-3.4.1.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
     <table class="periodic">
         <tr>
             <td class="col">1</td>
@@ -22,7 +22,7 @@
             <td class="col">18</td>
         </tr>
         <tr>
-            <td class="alkali element"  title="Водород" onclick="window.open('/elements/hydrogen.html');">
+            <td class="alkali element"  title="Водород" id="H" onclick="show()">
               <div>
                     <div class="number">1</div>
                     <div class="symbol">H</div>
@@ -36,7 +36,7 @@
             <td class="col">15</td>
             <td class="col">16</td>
             <td class="col">17</td>
-            <td class="noblegas helium element " title="Гелий" onclick="">
+            <td class="noblegas helium element " title="Гелий" id="He" onclick="show()">
                 <div>
                     <div class="number">2</div>
                     <div class="symbol">He</div>
@@ -46,7 +46,7 @@
             </td>
         </tr>
         <tr>
-            <td class="alkali element" title="Литий">
+            <td class="alkali element" title="Литий" id="Li" onclick="show()">
                 <div>
                     <div class="number">3</div>
                     <div class="symbol">Li</div>
@@ -54,7 +54,7 @@
                     <div class="mass">6.941</div>
                 </div>
             </td>
-            <td class="alkaline element" title="Бериллий">
+            <td class="alkaline element" title="Бериллий" id="Be" onclick="show()">
                 <div>
                     <div class="number">4</div>
                     <div class="symbol">Be</div>
@@ -62,7 +62,7 @@
                     <div class="mass">9.012</div>
                 </div>
             </td>
-            <td class=" semimetal element " title="Бор" onclick="">
+            <td class="semimetal element" title="Бор" id="B" onclick="show()">
                 <div>
                     <div class="number">5</div>
                     <div class="symbol">B</div>
@@ -70,7 +70,7 @@
                     <div class="mass">10.811</div>
                 </div>
             </td>
-            <td class="nonmetal element" title="Углерод" onclick="">
+            <td class="nonmetal element" title="Углерод" id="C" onclick="show()">
                 <div>
                     <div class="number">6</div>
                     <div class="symbol">C</div>
@@ -78,7 +78,7 @@
                     <div class="mass">12.011</div>
                 </div>
             </td>
-            <td class="nonmetal element" title="Азот" onclick=" ">
+            <td class="nonmetal element" title="Азот" id="N" onclick="show()">
                 <div>
                     <div class="number ">7</div>
                     <div class="symbol ">N</div>
@@ -86,7 +86,7 @@
                     <div class="mass ">14.007</div>
                 </div>
             </td>
-            <td class="nonmetal element " title="Кислород " >
+            <td class="nonmetal element " title="Кислород " id="O" onclick="show()">
                 <div>
                     <div class="number ">8</div>
                     <div class="symbol ">O</div>
@@ -94,7 +94,7 @@
                     <div class="mass ">15.999</div>
                 </div>
             </td>
-            <td class="halogen element  " title="Фтор " onclick=" ">
+            <td class="halogen element  " title="Фтор " id="element F">
                 <div>
                     <div class="number ">9</div>
                     <div class="symbol ">F</div>
@@ -102,7 +102,7 @@
                     <div class="mass ">18.998</div>
                 </div>
             </td>
-            <td class=" noblegas element " title="Неон " onclick=" ">
+            <td class=" noblegas element " title="Неон " id="element Ne">
                 <div>
                     <div class="number ">10</div>
                     <div class="symbol ">Ne</div>
@@ -112,7 +112,7 @@
             </td>
         </tr>
         <tr>
-            <td class="alkali element " title="Натрий " >
+            <td class="alkali element " title="Натрий " id="element Na">
                 <div>
                     <div class="number ">11</div>
                     <div class="symbol ">Na</div>
@@ -120,7 +120,7 @@
                     <div class="mass ">22.990</div>
                 </div>
             </td>
-            <td class="alkaline element" title="Магний " >
+            <td class="alkaline element" title="Магний " id="element Mg">
                 <div>
                     <div class="number ">12</div>
                     <div class="symbol ">Mg</div>
@@ -138,7 +138,7 @@
             <td class="col ">10</td>
             <td class="col ">11</td>
             <td class="col ">12</td>
-            <td class="basicmetal element " title="Алюминий " >
+            <td class="basicmetal element " title="Алюминий " id="element Al">
                 <div>
                     <div class="number ">13</div>
                     <div class="symbol ">Al</div>
@@ -146,7 +146,7 @@
                     <div class="mass ">26.982</div>
                 </div>
             </td>
-            <td class="semimetal element" title="Кремний " onclick=" ">
+            <td class="semimetal element" title="Кремний " id="element Si">
                 <div>
                     <div class="number ">14</div>
                     <div class="symbol ">Si</div>
@@ -156,7 +156,7 @@
                     
                 </div>
             </td>
-            <td class="nonmetal element" title="Фосфор " onclick="">
+            <td class="nonmetal element" title="Фосфор " id="element P">
                 <div>
                     <div class="number ">15</div>
                     <div class="symbol ">P</div>
@@ -164,7 +164,7 @@
                     <div class="mass ">30.974</div>
                 </div>
             </td>
-            <td class="nonmetal element " title="Сера " >
+            <td class="nonmetal element " title="Сера " id="element S">
                 <div>
                     <div class="number ">16</div>
                     <div class="symbol ">S</div>
@@ -172,7 +172,7 @@
                     <div class="mass ">32.066</div>
                 </div>
             </td>
-            <td class="halogen element " title="Хлор " onclick=" ">
+            <td class="halogen element " title="Хлор " id="element Cl">
                 <div>
                     <div class="number ">17</div>
                     <div class="symbol ">Cl</div>
@@ -180,7 +180,7 @@
                     <div class="mass ">35.453</div>
                 </div>
             </td>
-            <td class="noblegas element" title="Аргон " onclick=" ">
+            <td class="noblegas element" title="Аргон " id="element Ar">
                 <div>
                     <div class="number ">18</div>
                     <div class="symbol ">Ar</div>
@@ -190,7 +190,7 @@
             </td>
         </tr>
         <tr>
-            <td class="alkali element" title="Калий " >
+            <td class="alkali element" title="Калий " id="element K">
                 <div>
                     <div class="number ">19</div>
                     <div class="symbol ">K</div>
@@ -198,7 +198,7 @@
                     <div class="mass ">39.098</div>
                 </div>
             </td>
-            <td class="alkaline element" title="Кальций " >
+            <td class="alkaline element" title="Кальций " id="element Ca">
                 <div>
                     <div class="number ">20</div>
                     <div class="symbol ">Ca</div>
@@ -206,7 +206,7 @@
                     <div class="mass ">40.078</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Скандий " >
+            <td class="transmetal element" title="Скандий " id="element Sc">
                 <div>
                     <div class="number ">21</div>
                     <div class="symbol ">Sc</div>
@@ -294,7 +294,7 @@
                     <div class="mass ">69.723</div>
                 </div>
             </td>
-            <td class="semimetal element " title="Германий " onclick=" ">
+            <td class="semimetal element " title="Германий " id="element H">
                 <div>
                     <div class="number ">32</div>
                     <div class="symbol ">Ge</div>
@@ -302,7 +302,7 @@
                     <div class="mass ">72.631</div>
                 </div>
             </td>
-            <td class="semimetal element" title="Мышьяк " onclick=" ">
+            <td class="semimetal element" title="Мышьяк " id="element H">
                 <div>
                     <div class="number ">33</div>
                     <div class="symbol ">As</div>
@@ -310,7 +310,7 @@
                     <div class="mass ">74.922</div>
                 </div>
             </td>
-            <td class="nonmetal element" title="Селен " onclick=" ">
+            <td class="nonmetal element" title="Селен " id="element H">
                 <div>
                     <div class="number ">34</div>
                     <div class="symbol ">Se</div>
@@ -318,7 +318,7 @@
                     <div class="mass ">78.971</div>
                 </div>
             </td>
-            <td class="halogen element" title="Бром " onclick=" ">
+            <td class="halogen element" title="Бром " id="element H">
                 <div>
                     <div class="number ">35</div>
                     <div class="symbol ">Br</div>
@@ -326,7 +326,7 @@
                     <div class="mass ">79.904</div>
                 </div>
             </td>
-            <td class="noblegas element" title="Криптон " onclick=" ">
+            <td class="noblegas element" title="Криптон " id="element H">
                 <div>
                     <div class="number ">36</div>
                     <div class="symbol ">Kr</div>
@@ -344,7 +344,7 @@
                     <div class="mass ">84.468</div>
                 </div>
             </td>
-            <td class="alkaline element" title="Стронций " onclick=" ">
+            <td class="alkaline element" title="Стронций " id="element H">
                 <div>
                     <div class="number ">38</div>
                     <div class="symbol ">Sr</div>
@@ -352,7 +352,7 @@
                     <div class="mass ">87.62</div>
                 </div>
             </td>
-            <td class="transmetal element " title="Иттрий " onclick=" ">
+            <td class="transmetal element " title="Иттрий " id="element H">
                 <div>
                     <div class="number ">39</div>
                     <div class="symbol ">Y</div>
@@ -360,7 +360,7 @@
                     <div class="mass ">88.906</div>
                 </div>
             </td>
-            <td class="transmetal element " title="Цирконий " onclick=" ">
+            <td class="transmetal element " title="Цирконий " id="element H">
                 <div>
                     <div class="number ">40</div>
                     <div class="symbol ">Zr</div>
@@ -368,7 +368,7 @@
                     <div class="mass ">91.224</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Ниобий " onclick=" ">
+            <td class="transmetal element" title="Ниобий " id="element H">
                 <div>
                     <div class="number ">41</div>
                     <div class="symbol ">Nb</div>
@@ -376,7 +376,7 @@
                     <div class="mass ">92.906</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Молибден " onclick=" ">
+            <td class="transmetal element" title="Молибден " id="element H">
                 <div>
                     <div class="number ">42</div>
                     <div class="symbol ">Mo</div>
@@ -384,7 +384,7 @@
                     <div class="mass ">95.95</div>
                 </div>
             </td>
-            <td class="transmetal element radio" title="Технеций " onclick=" ">
+            <td class="transmetal element radio" title="Технеций " id="element H">
                 <div>
                     <div class="number ">43</div>
                     
@@ -393,7 +393,7 @@
                     <div class="mass ">98.907</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Рутений" onclick=" ">
+            <td class="transmetal element" title="Рутений" id="element H">
                 <div>
                     <div class="number ">44</div>
                     <div class="symbol ">Ru</div>
@@ -401,7 +401,7 @@
                     <div class="mass ">101.07</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Родий" onclick=" ">
+            <td class="transmetal element" title="Родий" id="element H">
                 <div>
                     <div class="number ">45</div>
                     <div class="symbol ">Rh</div>
@@ -409,7 +409,7 @@
                     <div class="mass ">102.906</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Палладий " onclick=" ">
+            <td class="transmetal element" title="Палладий " id="element H">
                 <div>
                     <div class="number ">46</div>
                     <div class="symbol ">Pd</div>
@@ -417,7 +417,7 @@
                     <div class="mass ">106.42</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Серебро " onclick=" ">
+            <td class="transmetal element" title="Серебро " id="element H">
                 <div>
                     <div class="number ">47</div>
                     <div class="symbol ">Ag</div>
@@ -425,7 +425,7 @@
                     <div class="mass ">107.868</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Кадмий " onclick=" ">
+            <td class="transmetal element" title="Кадмий " id="element H">
                 <div>
                     <div class="number ">48</div>
                     <div class="symbol ">Cd</div>
@@ -441,7 +441,7 @@
                     <div class="mass ">114.818</div>
                 </div>
             </td>
-            <td class="basicmetal element" title="Олово " onclick=" ">
+            <td class="basicmetal element" title="Олово " id="element H">
                 <div>
                     <div class="number ">50</div>
                     <div class="symbol ">Sn</div>
@@ -449,7 +449,7 @@
                     <div class="mass ">118.711</div>
                 </div>
             </td>
-            <td class="semimetal element" title="Сурьма " onclick=" ">
+            <td class="semimetal element" title="Сурьма " id="element H">
                 <div>
                     <div class="number ">51</div>
                     <div class="symbol ">Sb</div>
@@ -457,7 +457,7 @@
                     <div class="mass ">121.760</div>
                 </div>
             </td>
-            <td class="semimetal element" title="Теллур " onclick=" ">
+            <td class="semimetal element" title="Теллур " id="element H">
                 <div>
                     <div class="number ">52</div>
                     <div class="symbol ">Te</div>
@@ -465,7 +465,7 @@
                     <div class="mass ">127.6</div>
                 </div>
             </td>
-            <td class="halogen element" title="Иод " onclick=" ">
+            <td class="halogen element" title="Иод " id="element H">
                 <div>
                     <div class="number ">53</div>
                     <div class="symbol ">I</div>
@@ -473,7 +473,7 @@
                     <div class="mass ">126.904</div>
                 </div>
             </td>
-            <td class="noblegas  element" title="Ксенон " onclick=" ">
+            <td class="noblegas  element" title="Ксенон " id="element H">
                 <div>
                     <div class="number ">54</div>
                     <div class="symbol ">Xe</div>
@@ -483,7 +483,7 @@
             </td>
         </tr>
         <tr>
-            <td class="alkali element" title="Цезий " onclick=" ">
+            <td class="alkali element" title="Цезий " id="element H">
                 <div>
                     <div class="number ">55</div>
                     <div class="symbol ">Cs</div>
@@ -491,7 +491,7 @@
                     <div class="mass ">132.905</div>
                 </div>
             </td>
-            <td class="alkaline element " title="Барий " onclick=" ">
+            <td class="alkaline element " title="Барий " id="element H">
                 <div>
                     <div class="number ">56</div>
                     <div class="symbol ">Ba</div>
@@ -507,7 +507,7 @@
                     <div class="mass ">138.905</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Гафний " onclick=" ">
+            <td class="transmetal element" title="Гафний " id="element H">
                 <div>
                     <div class="number ">72</div>
                     <div class="symbol ">Hf</div>
@@ -515,7 +515,7 @@
                     <div class="mass ">178.49</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Тантал " onclick=" ">
+            <td class="transmetal element" title="Тантал " id="element H">
                 <div>
                     <div class="number ">73</div>
                     <div class="symbol ">Ta</div>
@@ -531,7 +531,7 @@
                     <div class="mass ">183.84</div>
                 </div>
             </td>
-            <td class="transmetal element  " title="Рений" onclick=" ">
+            <td class="transmetal element  " title="Рений" id="element H">
                 <div>
                     <div class="number ">75</div>
                     <div class="symbol ">Re</div>
@@ -539,7 +539,7 @@
                     <div class="mass ">186.207</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Осмий " onclick=" ">
+            <td class="transmetal element" title="Осмий " id="element H">
                 <div>
                     <div class="number ">76</div>
                     <div class="symbol ">Os</div>
@@ -547,7 +547,7 @@
                     <div class="mass ">190.23</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Иридий " onclick=" ">
+            <td class="transmetal element" title="Иридий " id="element H">
                 <div>
                     <div class="number ">77</div>
                     <div class="symbol ">Ir</div>
@@ -563,7 +563,7 @@
                     <div class="mass ">195.085</div>
                 </div>
             </td>
-            <td class="transmetal element" title="Золото " onclick=" ">
+            <td class="transmetal element" title="Золото " id="element H">
                 <div>
                     <div class="number ">79</div>
                     <div class="symbol ">Au</div>
@@ -571,7 +571,7 @@
                     <div class="mass ">196.967</div>
                 </div>
             </td>
-            <td class="transmetal element  " title="Ртуть " onclick=" ">
+            <td class="transmetal element  " title="Ртуть " id="element H">
                 <div>
                     <div class="number ">80</div>
                     <div class="symbol ">Hg</div>
@@ -579,7 +579,7 @@
                     <div class="mass ">200.592</div>
                 </div>
             </td>
-            <td class="basicmetal element" title="Таллий " onclick=" ">
+            <td class="basicmetal element" title="Таллий " id="element H">
                 <div>
                     <div class="number ">81</div>
                     <div class="symbol ">Tl</div>
@@ -604,7 +604,7 @@
                     <div class="mass ">208.980</div>
                 </div>
             </td>
-            <td class="semimetal element radio" title="Полоний " onclick=" ">
+            <td class="semimetal element radio" title="Полоний " id="element H">
                 <div>
                     <div class="number ">84</div>
                     
@@ -613,7 +613,7 @@
                     <div class="mass ">[208.982]</div>
                 </div>
             </td>
-            <td class="halogen element radio" title="Астат " onclick=" ">
+            <td class="halogen element radio" title="Астат " id="element H">
                 <div>
                     <div class="number ">85</div>
                     
@@ -633,7 +633,7 @@
             </td>
         </tr>
         <tr>
-            <td class="alkali element radio four" title="Франций " onclick=" ">
+            <td class="alkali element radio four" title="Франций " id="element H">
                 <div>
                     <div class="number ">87</div>
                     
@@ -642,7 +642,7 @@
                     <div class="mass ">223.020</div>
                 </div>
             </td>
-            <td class="alkaline element radio" title="Радий " onclick=" ">
+            <td class="alkaline element radio" title="Радий " id="element H">
                 <div>
                     <div class="number ">88</div>
                    
@@ -651,7 +651,7 @@
                     <div class="mass ">226.025</div>
                 </div>
             </td>
-            <td class="actinide element radio actinium " title="Актиний " onclick=" ">
+            <td class="actinide element radio actinium " title="Актиний " id="element H">
                 <div>
                     <div class="number ">89</div>
                    
@@ -660,7 +660,7 @@
                     <div class="mass ">227.028</div>
                 </div>
             </td>
-            <td class="transmetal element radio" title="Резерфордий " onclick=" ">
+            <td class="transmetal element radio" title="Резерфордий " id="element H">
                 <div>
                     <div class="number ">104</div>
                     
@@ -669,7 +669,7 @@
                     <div class="mass ">[261]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio" title="Дубний " onclick=" ">
+            <td class="transmetal  element radio" title="Дубний " id="element H">
                 <div>
                     <div class="number ">105</div>
                    
@@ -678,7 +678,7 @@
                     <div class="mass ">[262]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio" title="Сиборгий " onclick=" ">
+            <td class="transmetal  element radio" title="Сиборгий " id="element H">
                 <div>
                     <div class="number ">106</div>
                     
@@ -687,7 +687,7 @@
                     <div class="mass ">[266]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio" title="Борий " onclick=" ">
+            <td class="transmetal  element radio" title="Борий " id="element H">
                 <div>
                     <div class="number ">107</div>
                     
@@ -696,7 +696,7 @@
                     <div class="mass ">[264]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio" title="Хассий " onclick=" ">
+            <td class="transmetal  element radio" title="Хассий " id="element H">
                 <div>
                     <div class="number ">108</div>
                    
@@ -705,7 +705,7 @@
                     <div class="mass ">[269]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio 1" title="Мейтнерий " onclick=" ">
+            <td class="transmetal  element radio 1" title="Мейтнерий " id="element H">
                 <div>
                     <div class="number ">109</div>
                     
@@ -714,7 +714,7 @@
                     <div class="mass ">[268]</div>
                 </div>
             </td>
-            <td class="transmetal element radio" title="Дармштадтий " onclick=" ">
+            <td class="transmetal element radio" title="Дармштадтий " id="element H">
                 <div>
                     <div class="number ">110</div>
                     
@@ -723,7 +723,7 @@
                     <div class="mass ">[269]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio" title="Рентгений " onclick=" ">
+            <td class="transmetal  element radio" title="Рентгений " id="element H">
                 <div>
                     <div class="number ">111</div>
                    
@@ -732,7 +732,7 @@
                     <div class="mass ">[272]</div>
                 </div>
             </td>
-            <td class="transmetal  element radio" title="Коперниций " onclick=" ">
+            <td class="transmetal  element radio" title="Коперниций " id="element H">
                 <div>
                     <div class="number ">112</div>
                    
@@ -741,7 +741,7 @@
                     <div class="mass ">[277]</div>
                 </div>
             </td>
-            <td class="basicmetal  element radio" title="Нихоний " onclick=" ">
+            <td class="basicmetal  element radio" title="Нихоний " id="element H">
                 <div>
                     <div class="number ">113</div>
                     
@@ -750,7 +750,7 @@
                     <div class="mass ">[284]</div>
                 </div>
             </td>
-            <td class="basicmetal  element radio" title="Флеровий " onclick=" ">
+            <td class="basicmetal  element radio" title="Флеровий " id="element H">
                 <div>
                     <div class="number ">114</div>
                     
@@ -759,7 +759,7 @@
                     <div class="mass ">[289]</div>
                 </div>
             </td>
-            <td class="basicmetal  element radio" title="Московий " onclick=" ">
+            <td class="basicmetal  element radio" title="Московий " id="element H">
                 <div>
                     <div class="number ">115</div>
                     
@@ -768,7 +768,7 @@
                     <div class="mass ">[289]</div>
                 </div>
             </td>
-            <td class="basicmetal  element radio" title="Ливерморий " onclick=" ">
+            <td class="basicmetal  element radio" title="Ливерморий " id="element H">
                 <div>
                     <div class="number ">116</div>
                     
@@ -777,7 +777,7 @@
                     <div class="mass ">[298]</div>
                 </div>
             </td>
-            <td class="halogen element radio" title="Теннисин " onclick=" ">
+            <td class="halogen element radio" title="Теннисин " id="element H">
                 <div>
                     <div class="number ">117</div>
                     
@@ -786,7 +786,7 @@
                     <div class="mass ">[294]</div>
                 </div>
             </td>
-            <td class="noblegas  element radio" title="Оганесон" onclick=" ">
+            <td class="noblegas  element radio" title="Оганесон" id="element H">
                 <div>
                     <div class="number ">118</div>
                     
@@ -807,11 +807,11 @@
                    <div class="symbol "></div>
                     </div>
             </td>
-            <td class="tdinvisible" title="Церий " onclick=" ">
+            <td class="tdinvisible" title="Церий " id="element H">
                 <div>
                 </div>
             </td>
-            <td class="lanthanide element" title="Церий " onclick=" ">
+            <td class="lanthanide element" title="Церий " id="element H">
                 <div>
                     <div class="number ">58</div>
                     <div class="symbol ">Ce</div>
@@ -819,7 +819,7 @@
                     <div class="mass ">140.116</div>
                 </div>
             </td>
-            <td class="lanthanide element" title="Празеодим " onclick=" ">
+            <td class="lanthanide element" title="Празеодим " id="element H">
                 <div>
                     <div class="number ">59</div>
                     <div class="symbol ">Pr</div>
@@ -827,7 +827,7 @@
                     <div class="mass ">140.908</div>
                 </div>
             </td>
-            <td class="lanthanide element" title="Неодим " onclick=" ">
+            <td class="lanthanide element" title="Неодим " id="element H">
                 <div>
                     <div class="number ">60</div>
                     <div class="symbol ">Nd</div>
@@ -835,7 +835,7 @@
                     <div class="mass ">144.243</div>
                 </div>
             </td>
-            <td class="lanthanide  element radio" title="Прометий " onclick=" ">
+            <td class="lanthanide  element radio" title="Прометий " id="element H">
                 <div>
                     <div class="number ">61</div>
                    
@@ -844,7 +844,7 @@
                     <div class="mass ">114.913</div>
                 </div>
             </td>
-            <td class=" lanthanide element" title="Самарий " onclick=" ">
+            <td class=" lanthanide element" title="Самарий " id="element H">
                 <div>
                     <div class="number ">62</div>
                     <div class="symbol ">Sm</div>
@@ -852,7 +852,7 @@
                     <div class="mass ">150.36</div>
                 </div>
             </td>
-            <td class=" lanthanide  element" title="Европий " onclick=" ">
+            <td class=" lanthanide  element" title="Европий " id="element H">
                 <div>
                     <div class="number ">63</div>
                     <div class="symbol ">Eu</div>
@@ -860,7 +860,7 @@
                     <div class="mass ">151.964</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Гадолиний " onclick=" ">
+            <td class="lanthanide  element" title="Гадолиний " id="element H">
                 <div>
                     <div class="number ">64</div>
                     <div class="symbol ">Gd</div>
@@ -868,7 +868,7 @@
                     <div class="mass ">157.25</div>
                 </div>
             </td>
-            <td class="lanthanide element" title="Тербий " onclick=" ">
+            <td class="lanthanide element" title="Тербий " id="element H">
                 <div>
                     <div class="number ">65</div>
                     <div class="symbol ">Tb</div>
@@ -876,7 +876,7 @@
                     <div class="mass ">158.925</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Диспрозий " onclick=" ">
+            <td class="lanthanide  element" title="Диспрозий " id="element H">
                 <div>
                     <div class="number ">66</div>
                     <div class="symbol ">Dy</div>
@@ -884,7 +884,7 @@
                     <div class="mass ">162.500</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Гольмий " onclick=" ">
+            <td class="lanthanide  element" title="Гольмий " id="element H">
                 <div>
                     <div class="number ">67</div>
                     <div class="symbol ">Ho</div>
@@ -892,7 +892,7 @@
                     <div class="mass ">164.930</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Эрбий " onclick=" ">
+            <td class="lanthanide  element" title="Эрбий " id="element H">
                 <div>
                     <div class="number ">68</div>
                     <div class="symbol ">Er</div>
@@ -900,7 +900,7 @@
                     <div class="mass ">167.259</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Тулий " onclick=" ">
+            <td class="lanthanide  element" title="Тулий " id="element H">
                 <div>
                     <div class="number ">69</div>
                     <div class="symbol ">Tm</div>
@@ -908,7 +908,7 @@
                     <div class="mass ">168.934</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Иттербий " onclick=" ">
+            <td class="lanthanide  element" title="Иттербий " id="element H">
                 <div>
                     <div class="number ">70</div>
                     <div class="symbol ">Yb</div>
@@ -916,7 +916,7 @@
                     <div class="mass ">173.055</div>
                 </div>
             </td>
-            <td class="lanthanide  element" title="Лютеций " onclick=" ">
+            <td class="lanthanide  element" title="Лютеций " id="element H">
                 <div>
                     <div class="number ">71</div>
                     <div class="symbol ">Lu</div>
@@ -937,11 +937,11 @@
                     </div>
             </td>
              
-            <td class="tdinvisible" title="Торий " onclick=" ">
+            <td class="tdinvisible" title="Торий " id="element H">
                 <div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Торий " onclick=" ">
+            <td class="actinide element radio " title="Торий " id="element H">
                 <div>
                     <div class="number ">90</div>
                     <div class="symbol ">Th</div>
@@ -949,7 +949,7 @@
                     <div class="mass ">232.038</div>
                 </div>
             </td>
-            <td class="actinide  element radio" title="Протактиний " onclick=" ">
+            <td class="actinide  element radio" title="Протактиний " id="element H">
                 <div>
                     <div class="number ">91</div>
                     
@@ -958,7 +958,7 @@
                     <div class="mass ">231.036</div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Уран " onclick=" ">
+            <td class="actinide element radio " title="Уран " id="element H">
                 <div>
                     <div class="number ">92</div>
                     
@@ -967,7 +967,7 @@
                     <div class="mass ">238.029</div>
                 </div>
             </td>
-            <td class="actinide  element radio" title="Нептуний " onclick=" ">
+            <td class="actinide  element radio" title="Нептуний " id="element H">
                 <div>
                     <div class="number ">93</div>
                    
@@ -976,7 +976,7 @@
                     <div class="mass ">237.048</div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Плутоний " onclick=" ">
+            <td class="actinide element radio " title="Плутоний " id="element H">
                 <div>
                     <div class="number ">94</div>
                     
@@ -985,7 +985,7 @@
                     <div class="mass ">244.064</div>
                 </div>
             </td>
-            <td class="actinide  element radio" title="Америций " onclick=" ">
+            <td class="actinide  element radio" title="Америций " id="element H">
                 <div>
                     <div class="number ">95</div>
                    
@@ -994,7 +994,7 @@
                     <div class="mass ">243.061</div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Кюрий " onclick=" ">
+            <td class="actinide element radio " title="Кюрий " id="element H">
                 <div>
                     <div class="number ">96</div>
                     
@@ -1003,7 +1003,7 @@
                     <div class="mass ">247.070</div>
                 </div>
             </td>
-            <td class="actinide  element radio" title="Берклий " onclick=" ">
+            <td class="actinide  element radio" title="Берклий " id="element H">
                 <div>
                     <div class="number ">97</div>
                     
@@ -1012,7 +1012,7 @@
                     <div class="mass ">247.070</div>
                 </div>
             </td>
-            <td class="actinide  element radio" title="Калифорний " onclick=" ">
+            <td class="actinide  element radio" title="Калифорний " id="element H">
                 <div>
                     <div class="number ">98</div>
                     
@@ -1021,7 +1021,7 @@
                     <div class="mass ">251.080</div>
                 </div>
             </td>
-            <td class="actinide  element radio" title="Эйнштейний " onclick=" ">
+            <td class="actinide  element radio" title="Эйнштейний " id="element H">
                 <div>
                     <div class="number ">99</div>
                     
@@ -1030,7 +1030,7 @@
                     <div class="mass ">[254]</div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Фермий " onclick=" ">
+            <td class="actinide element radio " title="Фермий " id="element H">
                 <div>
                     <div class="number ">100</div>
                     
@@ -1039,7 +1039,7 @@
                     <div class="mass ">257.095</div>
                 </div>
             </td>
-            <td class="actinide element radio" title="Менделевий " onclick=" ">
+            <td class="actinide element radio" title="Менделевий " id="element H">
                 <div>
                     <div class="number ">101</div>
                     
@@ -1048,7 +1048,7 @@
                     <div class="mass ">258.1</div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Нобелий " onclick=" ">
+            <td class="actinide element radio " title="Нобелий " id="element H">
                 <div>
                     <div class="number ">102</div>
                     
@@ -1057,7 +1057,7 @@
                     <div class="mass ">259.101</div>
                 </div>
             </td>
-            <td class="actinide element radio " title="Лоуренсий " onclick=" ">
+            <td class="actinide element radio " title="Лоуренсий " id="element H">
                 <div>
                     <div class="number ">103</div>
                     
@@ -1096,8 +1096,9 @@
         </tr>
     </table>-->
     </div>
+    <div class="breakContainer" id="breakContainer">
     <div class="contentBx" id="contentBx">
-        <div class="data">
+        <div class="data" id="data">
         <span id="caption">Element Name</span>
         <div class="crosscontainer">
         <div class="cross cross1" id="cross1"></div>
@@ -1153,6 +1154,7 @@
         tenetur doloribus esse numquam! Dolore ratione doloribus 
         ex aperiam consectetur commodi dolores quas laudantium 
         consequuntur voluptates!</p>
+    </div>
     </div>
     </div>
 </body>
