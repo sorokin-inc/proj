@@ -77,13 +77,13 @@ table.periodic-1 > tbody > tr > td {
 }
         
 .name {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	text-align: center;
     font-weight: normal;
 }
         
 .mass {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	text-align: center;
 }
 
