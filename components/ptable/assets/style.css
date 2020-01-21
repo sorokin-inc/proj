@@ -24,6 +24,7 @@ body {
 	bottom: 0;
 	left: -6vw;
 	transform: scale(0.75);
+	z-index: 100;
 	height: calc(130vh + 4em);
 	/*margin-left: 2.5vw;
 	margin-top: -6vh;*/
@@ -157,6 +158,16 @@ table.periodic-1 > tbody > tr > td {
 .radioactivity {
 	position: absolute;
 	height: 15px;
+}
+
+.cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99;
+	background-color: #e9f4f7
 }
 
 /*Legend*/

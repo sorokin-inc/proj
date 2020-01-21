@@ -1,8 +1,12 @@
 <?php
-function get_elem() {
+function get_elements() {
   return [
     '1' => [
       'title' => 'Hydrogene',
+      //'content' => $description(1);
+      //require ('hydrogene.php');
+      //Hydrogene.php:
+      //$description = 'Lorem ipsum'
       'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       Saepe, sapiente! Sunt, reiciendis consectetur molestias 
       tenetur doloribus esse numquam! Dolore ratione doloribus 
@@ -157,16 +161,16 @@ function get_elem() {
   ];
 }
 
-function get_product_attribute($id, $attr) {
-  $products = get_products();
-  $result = $products[$id][$attr] ?? null;
+function get_elem_attribute($id, $attr) {
+  $elements = get_elements();
+  $result = $elements[$id][$attr] ?? null;
   return $result;
 }
 
-function get_product_title($id) {
-  return get_product_attribute($id, 'title');
+function get_elem_title($id) {
+  return get_elem_attribute($id, 'title');
 }
 
-function get_img_url($id) {
-  return get_product_attribute($id, 'url');
+function get_elem_content($id) {
+  return get_elem_attribute($id, 'content');
 }

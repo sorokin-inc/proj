@@ -2,7 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Ptable</title>
+    <meta name="description" content="The first periodic table you'll like more than yours one">
+    <meta name="Keywords" content="periodic, table, ptable, sorokin"> 
+    <meta name="theme-color" content="#3ac2d3">
+    <title>Periodic Table</title>
     <link href="assets/style.css" rel="stylesheet">
     <script type="text/javascript" src="assets/script.js"></script>
     <script src="assets/jquery-3.4.1.js"></script>
@@ -24,7 +27,7 @@
             <td class="alkali element"  title="Водород" id="H" onclick="show()">
               <div>
                     <div class="number">1</div>
-                    <div class="symbol"><a href="index.html?elem_id=1" onclick="show()">H</a></div>
+                    <div class="symbol"><a href="index.php?elem_id=1" onclick="show()">H</a></div>
                     <div class="name">Водород</div>
                     <div class="mass">1.008</div>
                 </div>
@@ -1095,22 +1098,3 @@
         </tr>
     </table>-->
     </div>
-    <div class="breakContainer" id="breakContainer">
-    <div class="contentBx" id="contentBx">
-        <div class="data" id="data">
-        <span id="caption">Element Name</span>
-        <div class="crosscontainer">
-        <div class="cross cross1" id="cross1"></div>
-        <div class="cross cross2" id="cross2"></div>
-        </div>
-        <input type="checkbox" id="minimizer" onclick="minimize()">
-        <input type="checkbox" id="folder" onclick="fold()">
-        <div class="breaker" id="breaker"></div>
-        </div>
-    <div class="content" id="content">
-        <p></p>
-    </div>
-    </div>
-    </div>
-</body>
-</html>

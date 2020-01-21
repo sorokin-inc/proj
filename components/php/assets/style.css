@@ -4,11 +4,13 @@
 
 /*Global styles*/
 html {
+	position: absolute;
+	top: -50em;
 	font-family: 'Karla', sans-serif;
 	font-size: calc(20vw/20);
 	margin: 0;
 	padding: 0;
-	/*overflow: hidden;*/
+	overflow-x: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -20,13 +22,14 @@ body {
 
 .container {
 	position: absolute;
-	top: -10vh;
+	top: -50em;
 	bottom: 0;
 	left: -6vw;
 	transform: scale(0.75);
 	height: calc(130vh + 4em);
 	/*margin-left: 2.5vw;
 	margin-top: -6vh;*/
+	z-index: 100;
 }
 
 a {
@@ -64,7 +67,18 @@ td div:nth-child(1) {
 	font-weight: bold;
 }
 
-/*Wut?*/
+div.cover {
+	border: 2px solid red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #e9f4f7;
+	z-index: 99;
+}
+
+/*Shifting*/
 table.periodic > tbody > tr > td {
 	padding: 0;
 	padding-bottom: 0.3em;
@@ -146,23 +160,13 @@ table.periodic-1 > tbody > tr > td {
 }
 
 /*Special markdown*/
-.semimetal {
-    background-image: url(semimetal.png) ;
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
-}
+/*
+.semimetal {}
 
-.radio {
-    background-image: url(radioactive.png);
-    background-repeat: no-repeat;
-	background-position: right top;
-	/*color: aqua;*/
-}
+.radio {}
 
-.radioactivity {
-	position: absolute;
-	height: 15px;
-}
+.radioactivity {}
+*/
 
 /*Legend*/
 /*.key {
@@ -179,6 +183,7 @@ table.periodic-1 > tbody > tr > td {
 	height: calc(90vw/18);
 }*/
 
+
 /*Breaker*/
 .breakContainer {
 	opacity: 1;
@@ -194,7 +199,7 @@ div.content {
 	width: 84.6vw;
 	background-color: #fff;
 	border-top: 3em solid #222222;
-	z-index: 99;
+	z-index: 101;
 	padding: 1em 2em 2em 2em;
 	font-size: 1.5em;
 	min-height: 95vh;
@@ -208,7 +213,7 @@ div.contentBx {
 }
 
 div.data {
-	width: 85vw;
+	width: 85vw;   /*this one is important, idk why it's underlined that*/
 	display: inline;
 	color: #fff;
 	position: absolute;
