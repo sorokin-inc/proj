@@ -4,8 +4,6 @@
 
 /*Global styles*/
 html {
-	position: absolute;
-	top: -50em;
 	font-family: 'Karla', sans-serif;
 	font-size: calc(20vw/20);
 	margin: 0;
@@ -21,14 +19,10 @@ body {
 }
 
 .container {
-	position: absolute;
-	top: -50em;
-	bottom: 0;
-	left: -6vw;
 	transform: scale(0.75);
 	height: calc(130vh + 4em);
-	/*margin-left: 2.5vw;
-	margin-top: -6vh;*/
+	margin-left: 2.5vw;
+	margin-top: -16vh;
 	z-index: 100;
 }
 
@@ -65,17 +59,6 @@ td div:nth-child(1) {
 	font-size: 5em;
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-weight: bold;
-}
-
-div.cover {
-	border: 2px solid red;
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100vw;
-	background-color: #e9f4f7;
-	z-index: 99;
 }
 
 /*Shifting*/
