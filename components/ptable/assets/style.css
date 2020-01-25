@@ -42,7 +42,7 @@ table.periodic-1 {
 }
 
 td div:nth-child(1) {
-	width: calc(90vw/15);
+	width: calc(92vw/15);
 }
 
 .group {
@@ -91,6 +91,7 @@ table.periodic-1 > tbody > tr > td {
 }
         
 .name {
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 0.8em;
 	text-align: center;
     font-weight: normal;

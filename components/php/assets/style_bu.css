@@ -8,7 +8,7 @@ html {
 	font-size: calc(20vw/20);
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow-x: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -18,13 +18,15 @@ body {
 	background-color: #e9f4f7;
 }
 
-.container {				/*changes*/
-	margin-top: -16vh;
+.container {
+	position: absolute;
+	bottom: 0;
+	left: -6vw;
 	transform: scale(0.75);
-	z-index: 100;
 	height: calc(130vh + 4em);
 	/*margin-left: 2.5vw;
 	margin-top: -6vh;*/
+	z-index: 100;
 }
 
 a {
@@ -179,26 +181,25 @@ table.periodic-1 > tbody > tr > td {
 	transition: 0.5s;
 }
 
-.content {
+div.content {
 	box-sizing: border-box;
-	width: 86vw;
+	width: 84.6vw;
 	background-color: #fff;
 	border-top: 3em solid #222222;
-	z-index: 1000;
+	z-index: 101;
 	padding: 1em 2em 2em 2em;
 	font-size: 1.5em;
 	min-height: 95vh;
 }
 
-.contentBx {
+div.contentBx {
 	position: fixed;
 	top: calc(100vh - 4.5em);
-	left: 7vw;
+	left: 7.9vw;
 	transition: 0.5s;
-	z-index: 1000;
 }
 
-.data {
+div.data {
 	width: 85vw;   /*this one is important, idk why it's underlined that*/
 	display: inline;
 	color: #fff;
@@ -269,14 +270,12 @@ div.breaker {
 }
 
 /*Activated*/
-.actContentBx {
+div.actContentBx {
 	position: absolute;
 	top: 2vh;
-	left: 7vw;
+	left: 7.9vw;
 	transition: 0.5s;
-	min-height: 995vh;
-	z-index: 1000;
-	overflow-y: scroll;
+	min-height: 95vh;
 }
 
 div.actBr {

@@ -302,3 +302,64 @@ div.actBr {
 	display: none;
 	transition: 0.5s;
 }
+
+/*Filters*/
+.filters {
+	position: absolute;
+	left: 28vw;
+	top: 12vh;
+}
+.inputBox {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+.cellBox {
+	display: flex;
+}
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+	padding: 0.1em;
+	transform: scale(3);
+	margin-left: 5vw;
+	transition: 0.5s;
+}
+
+input[type="checkbox"] {
+	transform: scale(4);
+	opacity: 0;
+	margin-left: 5vw;
+	cursor: pointer;
+}
+.nameDis, .massDis, .numDis {
+	opacity: 0;
+	font-size: 0.9em;
+}
+
+.actnamecell {
+	padding: 0.1em;
+	transform: scale(4);
+	margin-left: 5vw;
+	transition: 0.5s;
+	background-color: #e3778e;
+}
+
+.actmasscell {
+	padding: 0.1em;
+	transform: scale(4);
+	margin-left: 5vw;
+	transition: 0.5s;
+	background-color: #3ac2d3;
+}
+
+.actnumcell  {
+	padding: 0.1em;
+	transform: scale(4);
+	margin-left: 5vw;
+	transition: 0.5s;
+	background-color: #f1d861;
+}

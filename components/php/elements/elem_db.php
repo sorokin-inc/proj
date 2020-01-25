@@ -7,7 +7,7 @@ function get_elements() {
       //require ('hydrogene.php');
       //Hydrogene.php:
       //$description = 'Lorem ipsum'
-      'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      'content' => 'Водород ipsum dolor sit amet consectetur adipisicing elit. 
       Saepe, sapiente! Sunt, reiciendis consectetur molestias 
       tenetur doloribus esse numquam! Dolore ratione doloribus 
       ex aperiam consectetur commodi dolores quas laudantium 
@@ -55,108 +55,1032 @@ function get_elements() {
     ],
 
     '2' => [
-      'title' => 'Диван Рмаериби',
-      'url' => 'img/item-rmaeribi.jpg',
+      'title' => 'Helium',
+      'content' => 'Гелий ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '3' => [
-      'title' => 'Люстра Блетуб',
-      'url' => 'img/item-bletub.jpg',
+      'title' => 'Lithium',
+      'content' => 'Литий ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '4' => [
-      'title' => 'Рабочий стол Ннулм',
-      'url' => 'img/item-nnulm.jpg',
+      'title' => 'Berillium',
+      'content' => 'Бериллий ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '5' => [
-      'title' => 'Подвесная кровать Асусмер',
-      'url' => 'img/item-asusmer.jpg',
+      'title' => 'Boron',
+      'content' => 'Бор ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '6' => [
-      'title' => 'Набор мебели Тре',
-      'url' => 'img/item-tre.jpg',
+      'title' => 'Carbon',
+      'content' => 'Углерод ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '7' => [
-      'title' => 'Люстра как у бабушки',
-      'url' => 'img/item-default-old-lamp.jpg',
+      'title' => 'Nitrogene',
+      'content' => 'Азот ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '8' => [
-      'title' => 'Лампа Дo',
-      'url' => 'img/item-do.jpg',
+      'title' => 'Oxygene',
+      'content' => 'Кислород ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '9' => [
-      'title' => 'Печатная машинка Епеус',
-      'url' => 'img/item-epeus.jpg',
+      'title' => 'Fluor',
+      'content' => 'Фтор ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '10' => [
-      'title' => 'Стикеры Блемпере',
-      'url' => 'img/item-blempere.jpg',
+      'title' => 'Neon',
+      'content' => 'Неон ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '11' => [
-      'title' => 'Панно Туета',
-      'url' => 'img/item-tueta.jpg',
+      'title' => 'Sodium',
+      'content' => 'Натрий ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '12' => [
-      'title' => 'Органайзер Бреирбери',
-      'url' => 'img/item-breirberi.jpg',
+      'title' => 'Magnesium',
+      'content' => 'Магний ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '13' => [
-      'title' => 'Подушка Нмяо',
-      'url' => 'img/item-nmyao.jpg',
+      'title' => 'Aluminium',
+      'content' => 'Алюминий ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '14' => [
-      'title' => 'Лампа Кел',
-      'url' => 'img/item-kel.jpg',
+      'title' => 'Silicium',
+      'content' => 'Кремний ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '15' => [
-      'title' => 'Подушка Омасе',
-      'url' => 'img/item-omase.jpg',
+      'title' => 'Phosphorus',
+      'content' => 'Фосфор ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '16' => [
-      'title' => 'Корзина Орму',
-      'url' => 'img/item-ormu.jpg',
+      'title' => 'Sulfur',
+      'content' => 'Сера ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '17' => [
-      'title' => 'Скрепки Пинас',
-      'url' => 'img/item-pinas.jpg',
+      'title' => 'Chlorine',
+      'content' => 'Хлор ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '18' => [
-      'title' => 'Компакт-кассета Преум',
-      'url' => 'img/item-preum.jpg',
+      'title' => 'Argon',
+      'content' => 'Аргон ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '19' => [
       'title' => 'Кресло Бадета',
-      'url' => 'img/item-badeta.jpg',
+      'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '20' => [
       'title' => 'Сувенир Рмоб',
-      'url' => 'img/item-rmob.jpg',
+      'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '21' => [
       'title' => 'Люстра Ткуоко',
-      'url' => 'img/item-tkuoko.jpg',
+      'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ],
 
     '22' => [
       'title' => 'Кресла Бриатуо',
-      'url' => 'img/item-briatuo.jpg',
+      'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Saepe, sapiente! Sunt, reiciendis consectetur molestias 
+      tenetur doloribus esse numquam! Dolore ratione doloribus 
+      ex aperiam consectetur commodi dolores quas laudantium 
+      consequuntur voluptates!',
     ]
   ];
 }
