@@ -1,5 +1,0 @@
-<?php
-
-$description = "lorem ipsum";
-
-?>
